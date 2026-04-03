@@ -2,7 +2,7 @@ import streamlit as st
 from supabase import create_client
 
 # Judul
-st.title("📦 EL'S ID - STOK HARIAN")
+st.title("📦 ELS ID - STOK HARIAN")
 
 # Koneksi ke Supabase
 url = st.secrets["SUPABASE_URL"]
